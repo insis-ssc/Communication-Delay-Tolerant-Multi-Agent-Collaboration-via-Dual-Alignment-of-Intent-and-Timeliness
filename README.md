@@ -6,7 +6,7 @@ Set up StarCraft II and SMAC:
 bash install_sc2.sh
 ```
 
-This will download SC2.4.6.2.69232 into the 3rdparty folder and copy the maps necessary to run over. You may also need to set the environment variable for SC2:
+This will download SC2.4.10 into the 3rdparty folder and copy the maps necessary to run over. You may also need to set the environment variable for SC2:
 
 ```bash
 export SC2PATH=[Your SC2 folder like /abc/xyz/3rdparty/StarCraftII]
