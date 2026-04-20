@@ -37,3 +37,21 @@ They are all located in `src/config`.
 `--env-config` refers to the config files in `src/config/envs` including `sc2`, `foraging` as the LB-Foraging environment (https://github.com/semitable/lb-foraging), `join1` as the hallway environment (https://github.com/TonghanWang/NDQ).
 
 All results will be stored in the `results` folder.
+
+## Citation
+
+If you find CoDe useful in your research or applications, we would appreciate it if you could cite our work:
+
+```
+@article{Song_Lin_Han_Yao_Wu_Wang_Lv_2025, 
+title={CoDe: Communication Delay-Tolerant Multi-Agent Collaboration via Dual Alignment of Intent and Timeliness},
+volume={39},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/34497},
+DOI={10.1609/aaai.v39i22.34497},
+number={22}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Song, Shoucheng and Lin, Youfang and Han, Sheng and Yao, Chang and Wu, Hao and Wang, Shuo and Lv, Kai}, 
+year={2025}, 
+pages={23304-23312} 
+}
+```
