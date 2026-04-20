@@ -1,0 +1,31 @@
+# --- MADDPG specific parameters ---
+
+runner: "episode"
+
+buffer_size: 50000
+# update the target network every {} episodes
+target_update_interval_or_tau: 200
+
+obs_agent_id: True
+obs_last_action: False
+obs_individual_obs: False
+
+
+# use the madddpg_learner to train
+mac: "maddpg_mac"
+reg: 0.001
+batch_size: 32
+lr: 0.0005
+use_rnn: True
+
+standardise_returns: False
+standardise_rewards: True
+entropy_loss_weight: 0.01
+continous_loss_weight: 0.0001
+infer_loss_weight: 0.0001
+embed_loss_weight: 0.01
+learner: "maddpg_learner"
+agent_output_type: "pi_logits"
+hidden_dim: 128
+critic_type: "maddpg_critic"
+name: "maddpg"
